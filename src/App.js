@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <sidebar>
 
         </sidebar>
@@ -18,7 +17,9 @@ function App() {
         <contact>
           
         </contact>
-      </header>
+        <footer>
+          
+        </footer>
     </div>
   );
 }
