@@ -1,25 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
+import Sidebar from './sidebar';
+import Footer from './footer';
+import Home from './pages/home';
+import Contact from './pages/contact';
+import Projects from './pages/projects';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
+
+  // switch to page based on props?
+  // flex sidebar on left ... page on right
+
   return (
-    <div className="App">
-        <sidebar>
+    <div>
+      <div className="d-flex">
+        <Sidebar/>
+        <div className="flex-grow-1 page">
+          <Home>
 
-        </sidebar>
-        <home>
+          </Home>
+          <Projects>
 
-        </home>
-        <projects>
+          </Projects>
+          <Contact>
 
-        </projects>
-        <contact>
-          
-        </contact>
-        <footer>
-          
-        </footer>
+          </Contact>
+        </div>
+      </div>
+      <Footer>
+
+      </Footer>
     </div>
   );
 }
