@@ -1,9 +1,28 @@
-.main-container {
-  display: flex;
-  flex-direction: row;
+.page {
+  background-color: #F1F2EB;
+  height: 100vh;
 }
 
-.page {
-  text-align: center;
-  background-color: #F1F2EB;
+.sidebar {
+  color: #DBDAD3;
+  background-color: #4A4A48;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 105%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar-item:hover{
+  color: #F1F2EB;
+  cursor: pointer;
+}
+
+.sidebar-item {
+  color: #DBDAD3;
+}
+
+a:active {
+  color: #566246;
 }

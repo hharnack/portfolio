@@ -6,33 +6,37 @@ import Contact from './pages/contact';
 import Projects from './pages/projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { Container, Row, Col } from 'reactstrap';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
-function App() {
+export default class App extends React.Component {
 
-  // switch to page based on props?
-  // flex sidebar on left ... page on right
+  constructor() {
+    super();
+  }
 
-  return (
-    <div>
-      <div className="d-flex">
-        <Sidebar/>
-        <div className="flex-grow-1 page">
-          <Home>
 
-          </Home>
-          <Projects>
-
-          </Projects>
-          <Contact>
-
-          </Contact>
-        </div>
-      </div>
-      <Footer>
-
-      </Footer>
-    </div>
-  );
+  render() {
+    return (
+      <Container fluid className="pl-0">
+        <Row>
+          <Col md="2" className="pr-0">
+            <Sidebar />
+          </Col>
+          <Col md="10">
+            <ScrollableAnchor id={'about'}>
+              <Home />
+            </ScrollableAnchor>
+            <ScrollableAnchor id={'proj'}>
+              <Projects />
+            </ScrollableAnchor>
+            <ScrollableAnchor id={'contact'}>
+              <Contact />
+            </ScrollableAnchor>
+            <Footer />
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
 }
-
-export default App;
