@@ -12,13 +12,13 @@ class Sidebar extends React.Component {
                     <a href="#about" className="sidebar-item"><Col>About Me</Col></a>
                 </Row>
                 <Row className="sidebar-item p-3">
-                    <a href="#proj" style={{color:"inherit"}}><Col>Projects</Col></a>
+                    <a href="#proj" className="sidebar-item"><Col>Projects</Col></a>
                 </Row>
                 <Row className="sidebar-item p-3">
-                    <a href="#contact" style={{color:"inherit"}}><Col> Contact Me</Col></a>
+                    <a href="#contact" className="sidebar-item"><Col> Contact Me</Col></a>
                 </Row>
                 <Row className="sidebar-item p-3">
-                    <a href={pdf} style={{color:"inherit"}}><Col>Resume</Col></a>
+                    <a href={pdf} className="sidebar-item"><Col>Resume</Col></a>
                 </Row>
             </Container>
         );

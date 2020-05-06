@@ -23,6 +23,6 @@
   color: #DBDAD3;
 }
 
-a:active {
+.sidebar-item > a:active {
   color: #566246;
 }
