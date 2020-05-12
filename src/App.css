@@ -8,7 +8,7 @@
   background-color: #4A4A48;
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
-  font-size: 105%;
+  font-size: 120%;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -23,6 +23,6 @@
   color: #DBDAD3;
 }
 
-.sidebar-item > a:active {
+a:active {
   color: #566246;
 }
