@@ -9,16 +9,16 @@ class Sidebar extends React.Component {
         return (
             <Container fluid className="sidebar d-none d-md-block">
                 <Row className="p-3 pt-5">
-                    <a href="#about" className="sidebar-item"><Col>About Me</Col></a>
+                    <Col><a href="#about" className="sidebar-item">About Me</a></Col>
                 </Row>
                 <Row className="sidebar-item p-3">
-                    <a href="#proj" className="sidebar-item"><Col>Projects</Col></a>
+                    <Col><a href="#proj" className="sidebar-item">Projects</a></Col>
                 </Row>
                 <Row className="sidebar-item p-3">
-                    <a href="#contact" className="sidebar-item"><Col> Contact Me</Col></a>
+                    <Col> <a href="#contact" className="sidebar-item">Contact Me</a></Col>
                 </Row>
                 <Row className="sidebar-item p-3">
-                    <a href={pdf} className="sidebar-item"><Col>Resume</Col></a>
+                    <Col><a href={pdf} className="sidebar-item">Resume</a></Col>
                 </Row>
             </Container>
         );
