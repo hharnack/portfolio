@@ -27,10 +27,10 @@ class Sidebar extends React.Component {
                             <Col><a href={pdf} className="sidebar-item">Resume</a></Col>
                         </Row>
                         <Row className="sidebar-item p-3">
-                            <Col><a href="" className="sidebar-item">Github</a></Col>
+                            <Col><a href="https://github.com/hharnack/" className="sidebar-item">Github</a></Col>
                         </Row>
                         <Row className="sidebar-item p-3">
-                            <Col><a href="" className="sidebar-item">Linked In</a></Col>
+                            <Col><a href="https://www.linkedin.com/in/hollyharnack/" className="sidebar-item">Linked In</a></Col>
                         </Row>
                     </Col>
                 </Row>
