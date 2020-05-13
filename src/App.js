@@ -22,10 +22,10 @@ export default class App extends React.Component {
       <div ref={this.wrapper}>{this.props.children}</div>
       <Container fluid className="pl-0">
         <Row>
-          <Col md="2" className="pr-0">
+          <Col md="2" sm="3" lg="1" className="pr-0">
             <Sidebar />
           </Col>
-          <Col md="10">
+          <Col md="10" sm="9" lg="11">
             <ScrollableAnchor id={'about'}>
               <Home />
             </ScrollableAnchor>
