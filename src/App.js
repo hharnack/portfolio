@@ -11,15 +11,9 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 export default class App extends React.Component {
 
-  constructor(props) {
-    super(props);
-    this.wrapper = React.createRef();
-  }
-
   render() {
     return (
       <div>
-      <div ref={this.wrapper}>{this.props.children}</div>
       <Container fluid className="pl-0">
         <Row>
           <Col md="2" sm="3"className="pr-0">
