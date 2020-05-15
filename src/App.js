@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidebar from './sidebar';
+import Navbar from './Navbar';
 import Footer from './footer';
 import Home from './pages/home';
 import Contact from './pages/contact';
@@ -14,12 +15,15 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-      <Container fluid className="pl-0">
+      <Container fluid>
         <Row>
-          <Col md="2" sm="3"className="pr-0">
+          <Col md="10" className="pl-0 pr-0 visible-xs visible-sm d-md-none">
+            <Navbar />
+          </Col>
+          <Col md="2" className="pl-0 pr-0 d-none d-md-block">
             <Sidebar />
           </Col>
-          <Col md="10" sm="9">
+          <Col md="10" className="pr-0 pl-0">
             <ScrollableAnchor id={'about'}>
               <Home />
             </ScrollableAnchor>
