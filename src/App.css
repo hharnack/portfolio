@@ -14,6 +14,10 @@
   top: 0;
 }
 
+.navbar {
+  background-color: #4A4A48;
+}
+
 .sidebar-item:hover{
   color: #F1F2EB;
   cursor: pointer;
@@ -27,5 +31,10 @@ a:active {
   color: #566246;
 }
 
-.end{
-}
+.fa-1x {
+  font-size: 1.5rem;
+  }
+
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
