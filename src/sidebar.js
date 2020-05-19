@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
 import pdf from '../src/HollyHarnackResume.pdf';
 
 class Sidebar extends React.Component {
