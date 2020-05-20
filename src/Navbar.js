@@ -15,22 +15,22 @@ class Navbar extends React.Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">About Me</a>
+                            <a className="nav-link navbar-item" href="#about">About Me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#proj">Projects</a>
+                            <a className="nav-link navbar-item" href="#proj">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contact Me</a>
+                            <a className="nav-link navbar-item" href="#contact">Contact Me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={{pdf}}>Resume</a>
+                            <a className="nav-link navbar-item" href={{pdf}}>Resume</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://github.com/hharnack/">Github</a>
+                            <a className="nav-link navbar-item" href="https://github.com/hharnack/">Github</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://www.linkedin.com/in/hollyharnack/">LinkedIn</a>
+                            <a className="nav-link navbar-item" href="https://www.linkedin.com/in/hollyharnack/">LinkedIn</a>
                         </li>
                     </ul>
                 </div>
