@@ -8,6 +8,7 @@ class Navbar extends React.Component {
 
         return (
             <nav className="navbar">
+
                 <button className="icon navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon d-flex align-items-center"><i className="material-icons">menu</i></span>
                 </button>
@@ -24,7 +25,7 @@ class Navbar extends React.Component {
                             <a className="nav-link navbar-item" href="#contact">Contact Me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link navbar-item" href={{pdf}}>Resume</a>
+                            <a className="nav-link navbar-item border-top" href={{pdf}}>Resume</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link navbar-item" href="https://github.com/hharnack/">Github</a>

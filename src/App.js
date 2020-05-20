@@ -23,7 +23,7 @@ export default class App extends React.Component {
             <Col md="2" className="pl-0 pr-0 d-none d-md-block">
               <Sidebar />
             </Col>
-            <Col md="10" className="pr-0 pl-0">
+            <Col md="10">
               <ScrollableAnchor id={'about'}>
                 <Home />
               </ScrollableAnchor>
