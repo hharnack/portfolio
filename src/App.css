@@ -23,7 +23,7 @@ a:active {
 
 .page {
   background-color: #F1F2EB;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .profile {
@@ -54,12 +54,11 @@ a:active {
 .subtitle{
   font-family: 'Playfair Display', serif;
   color: #556246;
-  font-size: 120%;
 }
 
 .title {
   font-family: 'Playfair Display', serif;
-  font-size: 230%;
+  font-size: 200%;
   color: #556246;
 }
 
