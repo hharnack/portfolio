@@ -9,7 +9,7 @@ class Home extends React.Component {
         return (
             <div className="page">
                 <Row style={{ maxHeight: "100vh" }}>
-                    <Col className="align-self-center pl-5 pr-5" md="7" sm="12" xs="12">
+                    <Col className="align-self-center pl-5 pr-5" xl="6" md="7" sm="12" xs="12">
                         <div className="title">About Me</div>
                         <hr style={{ borderColor: '#556246' }} />
                         <div className="content">
