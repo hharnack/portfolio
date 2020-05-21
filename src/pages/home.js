@@ -8,8 +8,8 @@ class Home extends React.Component {
 
         return (
             <div className="page">
-                <Row style={{ height: "100vh" }}>
-                    <Col className="align-self-center p-5" md="7" sm="12" xs="12">
+                <Row style={{ maxHeight: "100vh" }}>
+                    <Col className="align-self-center pl-5 pr-5" md="7" sm="12" xs="12">
                         <div className="title">About Me</div>
                         <hr style={{ borderColor: '#556246' }} />
                         <div className="content">
@@ -18,7 +18,7 @@ class Home extends React.Component {
                     as I love learning new things and I am able to create unique projects throughout the learning process. I have a dedicated and methodical approach to schooling and work
                     which is reflected through my GPA of 3.99 and scholarships I have been granted throughout my schooling.
                     <br /><br />
-                    Outside of programming a couple of my other interests are reading, playing guitar, writing and hiking. I am looking forward to utilizing my skills in the future and contributing to team projects as well as personal projects.
+                    I am looking forward to utilizing my skills in the future and contributing to team projects as well as personal projects.
                     <br /><br />
                             <Row>
                                 <Col  md="6" sm="12" xs="12">
