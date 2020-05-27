@@ -22,6 +22,7 @@ class Home extends React.Component {
                     <br /><br />
                             <Row>
                                 <Col  md="6" sm="12" xs="12">
+                                     <img className="img-fluid" src={profile} />
                                     <div className="subtitle">Some of my technical skills:</div>
                                     <br />
                                     <ul>
@@ -50,7 +51,7 @@ class Home extends React.Component {
                             </Row>
                         </div>
                     </Col>
-                    <Col className="d-flex justify-content-center profile"><img className="img-fluid" src={profile} /></Col>
+                    {/* <Col className="d-flex justify-content-center profile"><img className="img-fluid" src={profile} /></Col> */}
                 </Row>
             </div>
         );
