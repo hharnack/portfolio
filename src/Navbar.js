@@ -8,32 +8,22 @@ class Navbar extends React.Component {
         return (
             <nav className="navbar">
 
-                <button className="icon navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon d-flex align-items-center"><i className="material-icons">menu</i></span>
-                </button>
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div className="navbar-nav container">
+                            <a className="nav-item nav-link active" href="#about">About Me <span className="sr-only">(current)</span></a>
+                            <a className="nav-item nav-link" href="#proj">Projects</a>
+                            <a className="nav-item nav-link" href="#contact">Contact Me</a>
+                            <a className="nav-item nav-link" href={pdf} className="sidebar-item">Resume</a>
+                            <a className="nav-item nav-link" href="https://github.com/hharnack/" className="sidebar-item">Github</a>
+                            <a className="nav-item nav-link" href="https://www.linkedin.com/in/hollyharnack/" className="sidebar-item">LinkedIn</a>
+                        </div>
+                    </div>
+                </nav>
 
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto">
-                        <li className="nav-item">
-                            <a className="nav-link navbar-item" href="#about">About Me</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link navbar-item" href="#proj">Projects</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link navbar-item" href="#contact">Contact Me</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link navbar-item border-top" href={{pdf}}>Resume</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link navbar-item" href="https://github.com/hharnack/">Github</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link navbar-item" href="https://www.linkedin.com/in/hollyharnack/">LinkedIn</a>
-                        </li>
-                    </ul>
-                </div>
             </nav>
         );
 
