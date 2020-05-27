@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from './sidebar';
 import Navbar from './Navbar';
+import NavbarHam from './NavbarHam';
 import Footer from './footer';
 import Home from './pages/home';
 import Contact from './pages/contact';
@@ -14,16 +15,19 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: '#F1F2EB', height: '100%' }}>
         <div className="pl-0 pr-0 visible-xs visible-sm d-md-none sticky-top">
+          <NavbarHam />
+        </div>
+        <div className="pl-0 pr-0 d-none d-md-block sticky-top">
           <Navbar />
         </div>
         <Container fluid>
           <Row>
-            <Col md="2" className="pl-0 pr-0 d-none d-md-block">
+            {/* <Col md="1" className="pl-0 pr-0 d-none d-md-block">
               <Sidebar />
-            </Col>
-            <Col md="10">
+            </Col> */}
+            <Col className="scroll">
               <ScrollableAnchor id={'about'}>
                 <Home />
               </ScrollableAnchor>
