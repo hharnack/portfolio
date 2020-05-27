@@ -28,13 +28,26 @@ a:active {
   background-color: #4A4A48;
 }
 
+.scroll {
+  width: 100%;
+}
+
 .page {
+  width: 100%;
+  max-width:1200px;
   background-color: #F1F2EB;
 }
 
 .profile {
-  background-color: #4A4A48;
-  height:100vh;
+  border-width: 5px;
+  border-color: #4A4A48;
+  border-style: solid;
+  height:40%;
+  width:40%;
+  max-height: 600px;
+  max-width:500px;
+  min-height: 400px;
+  min-width:300px;
 }
 
 .sidebar {
