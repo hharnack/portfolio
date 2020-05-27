@@ -7,9 +7,13 @@ class Home extends React.Component {
     render() {
 
         return (
+            <div className="d-flex justify-content-center">
             <div className="page">
-                <Row style={{ maxHeight: "100vh" }}>
-                    <Col className="align-self-center pl-5 pr-5" xl="6" md="7" sm="12" xs="12">
+                <Row>
+                    <Col className="align-self-center pl-5 pr-5" xl="12" md="12" sm="12" xs="12">
+                        <div className="d-flex justify-content-center mt-3">
+                    <img className="img-fluid profile m-3" src={profile} />
+                    </div>
                         <div className="title">About Me</div>
                         <hr style={{ borderColor: '#556246' }} />
                         <div className="content">
@@ -22,7 +26,6 @@ class Home extends React.Component {
                     <br /><br />
                             <Row>
                                 <Col  md="6" sm="12" xs="12">
-                                     <img className="img-fluid" src={profile} />
                                     <div className="subtitle">Some of my technical skills:</div>
                                     <br />
                                     <ul>
@@ -53,6 +56,7 @@ class Home extends React.Component {
                     </Col>
                     {/* <Col className="d-flex justify-content-center profile"><img className="img-fluid" src={profile} /></Col> */}
                 </Row>
+            </div>
             </div>
         );
 
