@@ -13,6 +13,12 @@ a:active {
   color: #DBDAD3;
 }
 
+.main-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 400%;
+  color: #556246;
+}
+
 .navbar-item {
   color: #DBDAD3;
 }
@@ -34,7 +40,7 @@ a:active {
 
 .page {
   width: 100%;
-  max-width:1200px;
+  max-width:1200px; 
   background-color: #F1F2EB;
 }
 
@@ -42,15 +48,15 @@ a:active {
   border-width: 5px;
   border-color: #4A4A48;
   border-style: solid;
-  height:40%;
-  width:40%;
+  height:10%;
+  width:10%;
   max-height: 600px;
   max-width:500px;
   min-height: 400px;
-  min-width:300px;
+  min-width:300px; 
 }
 
-.sidebar {
+/* .sidebar {
   color: #DBDAD3;
   background-color: #4A4A48;
   height: 100vh;
@@ -59,14 +65,18 @@ a:active {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-}
+} */
 
-.sidebar-item:hover {
+/* .nav-item:hover {
   color: #F1F2EB;
   cursor: pointer;
 }
 
-.sidebar-item {
+.nav-item {
+  color: #DBDAD3;
+} */
+
+.navbar-dark .navbar-nav .nav-link {
   color: #DBDAD3;
 }
 
