@@ -22,7 +22,7 @@ export default class App extends React.Component {
         <div className="pl-0 pr-0 d-none d-md-block sticky-top">
           <Navbar />
         </div>
-        <Container fluid>
+        <Container>
           <Row>
             {/* <Col md="1" className="pl-0 pr-0 d-none d-md-block">
               <Sidebar />
