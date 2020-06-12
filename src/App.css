@@ -19,6 +19,12 @@ a:active {
   color: #556246;
 }
 
+.sub-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 200%;
+  color: #677e39;
+}
+
 .navbar-item {
   color: #DBDAD3;
 }
