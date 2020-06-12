@@ -6,9 +6,9 @@ class Navbar extends React.Component {
     render() {
 
         return (
-            <nav className="navbar">
+            <nav className="navbar d-flex justify-content-center">
 
-                <nav className="navbar navbar-expand-lg bg-dark d-flex justify-content-center">
+                <nav className="navbar navbar-expand-lg">
                     <div id="navbarNavAltMarkup ">
                         <div className="navbar-nav container ">
                             <a className="nav-item nav-link" href="#about">About Me</a>
