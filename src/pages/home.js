@@ -10,15 +10,18 @@ class Home extends React.Component {
             <div className="d-flex justify-content-center">
                 <div className="page">
                     <Row>
-                        <Col className="align-self-center pl-5 pr-5" xl="12" md="12" sm="12" xs="12">
+                        <Col className="align-self-center pl-5 pr-5">
                             <Row>
                                 <Col>
                                     <div>
                                         <div className="main-title">
                                             Holly Harnack 
                                         </div>
+                                        <div className="sub-title">
+                                           Software Developer 
+                                        </div>
                                         <div>
-                                            contact info here.
+                                            contact info
                                         </div>
                                     </div>
                                 </Col>
