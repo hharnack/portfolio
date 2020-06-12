@@ -8,9 +8,9 @@ class Navbar extends React.Component {
         return (
             <nav className="navbar">
 
-                <nav className="navbar navbar-expand-lg bg-dark">
-                    <div id="navbarNavAltMarkup">
-                        <div className="navbar-nav container">
+                <nav className="navbar navbar-expand-lg bg-dark d-flex justify-content-center">
+                    <div id="navbarNavAltMarkup ">
+                        <div className="navbar-nav container ">
                             <a className="nav-item nav-link" href="#about">About Me</a>
                             <a className="nav-item nav-link" href="#proj">Projects</a>
                             <a className="nav-item nav-link" href="#contact">Contact Me</a>
