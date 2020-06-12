@@ -32,6 +32,16 @@ a:active {
 
 .navbar {
   background-color: #4A4A48;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link {
+  color:#DBDAD3;
+}
+
+.nav-link:hover{
+  color: #F1F2EB;
+  cursor: pointer;
 }
 
 .scroll {
