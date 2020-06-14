@@ -20,8 +20,8 @@ class Home extends React.Component {
                                         <div className="sub-title">
                                            Software Developer 
                                         </div>
-                                        <div>
-                                            contact info
+                                        <div classname="intro-content pt-5">
+                                            Email: harnackholly@gmail.com
                                         </div>
                                     </div>
                                 </Col>
