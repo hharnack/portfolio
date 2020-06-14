@@ -19,12 +19,6 @@ a:active {
   color: #556246;
 }
 
-.sub-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 200%;
-  color: #677e39;
-}
-
 .navbar-item {
   color: #DBDAD3;
 }
@@ -54,8 +48,19 @@ a:active {
   width: 100%;
 }
 
+.sub-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 200%;
+  color: #677e39;
+}
+
+.intro-content {
+  font-family: 'Playfair Display', serif;
+  color: #a7cc5c;
+}
+
 .page {
-  width: 100%;
+  width: 80%;
   max-width:1200px; 
   background-color: #F1F2EB;
 }
