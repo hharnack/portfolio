@@ -24,9 +24,6 @@ export default class App extends React.Component {
         </div>
         <Container>
           <Row>
-            {/* <Col md="1" className="pl-0 pr-0 d-none d-md-block">
-              <Sidebar />
-            </Col> */}
             <Col className="scroll">
               <ScrollableAnchor id={'about'}>
                 <Home />
