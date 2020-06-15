@@ -10,7 +10,7 @@ class Home extends React.Component {
             <div className="d-flex justify-content-center">
                 <div className="page">
                     <Row>
-                        <Col className="align-self-center pl-5 pr-5">
+                        <Col>
                             <Row>
                                 <Col>
                                     <div>
