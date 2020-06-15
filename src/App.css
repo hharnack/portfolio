@@ -56,11 +56,11 @@ a:active {
 .sub-title {
   font-family: 'Playfair Display', serif;
   font-size: 200%;
-  color: #677e39;
+  color: #5b7032;
 }
 
 .page {
-  width: 80%;
+  width: 70%;
   max-width:1200px; 
   background-color: #F1F2EB;
 }
@@ -74,26 +74,6 @@ a:active {
   min-height: 400px;
   min-width:300px; 
 }
-
-/* .sidebar {
-  color: #DBDAD3;
-  background-color: #4A4A48;
-  height: 100vh;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 120%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-} */
-
-/* .nav-item:hover {
-  color: #F1F2EB;
-  cursor: pointer;
-}
-
-.nav-item {
-  color: #DBDAD3;
-} */
 
 .navbar-dark .navbar-nav .nav-link {
   color: #DBDAD3;
