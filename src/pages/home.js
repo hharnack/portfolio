@@ -20,8 +20,9 @@ class Home extends React.Component {
                                         <div className="sub-title">
                                            Software Developer 
                                         </div>
-                                        <div classname="intro-content pt-5">
-                                            Email: harnackholly@gmail.com
+                                        <div className="intro-content pt-2">
+                                            <div>Email: harnackholly@gmail.com</div>
+                                            <div>Phone: (587)590-9700</div>
                                         </div>
                                     </div>
                                 </Col>
@@ -36,10 +37,10 @@ class Home extends React.Component {
                             <div className="content">
                                 <b style={{ color: '#556246' }}>Hello</b>, my name is Holly Harnack and I have recently graduated from the Southern Alberta Institute of Technology with an Information Technology - Software Development diploma.
                     What lead me to the software development field was my passion for problem solving and creativity. I feel like this is the perfect field for me
-                    as I love learning new things and I am able to create unique projects throughout the learning process. I have a dedicated and methodical approach to schooling and work
-                    which is reflected through my GPA of 3.99 and scholarships I have been granted throughout my schooling.
+                    as I love learning new things and I am able to create unique projects throughout the learning process.
                     <br /><br />
-                    I am looking forward to utilizing my skills in the future and contributing to team projects as well as personal projects.
+                    I have a dedicated and methodical approach to schooling and work
+                    which is reflected through my GPA of 3.99 and scholarships I have been granted throughout my schooling. I am looking forward to utilizing my skills in the future and contributing to team projects as well as personal projects.
                     <br /><br />
                                 <Row>
                                     <Col md="6" sm="12" xs="12">
