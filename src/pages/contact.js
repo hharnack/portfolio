@@ -1,14 +1,15 @@
-import React from'react';
+import React from 'react';
 
-class Contact extends React.Component{
+class Contact extends React.Component {
 
     render() {
 
         return (
             <div className="d-flex justify-content-center">
-            <div className="page">
-                Contact
-            </div>
+                <div className="page">
+                    <div className="title">Contact Me</div>
+                    <hr style={{ borderColor: '#556246' }} />
+                </div>
             </div>
         );
 
