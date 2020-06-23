@@ -31,9 +31,9 @@ export default class App extends React.Component {
               <ScrollableAnchor id={'proj'}>
                 <Projects />
               </ScrollableAnchor>
-              <ScrollableAnchor id={'contact'}>
+              {/* <ScrollableAnchor id={'contact'}>
                 <Contact />
-              </ScrollableAnchor>
+              </ScrollableAnchor> */}
               <Footer />
             </Col>
           </Row>
