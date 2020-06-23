@@ -21,7 +21,7 @@ class Home extends React.Component {
                                            Software Developer 
                                         </div>
                                         <div className="intro-content pt-2">
-                                            <div>Email: harnackholly@gmail.com</div>
+                                            <div>Email: <a style={{color: '#8baa4d'}} href="mailto:harnackholly@gmail.com">harnackholly@gmail.com</a></div>
                                             <div>Phone: (587)590-9700</div>
                                         </div>
                                     </div>
