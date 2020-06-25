@@ -21,7 +21,7 @@ class Navbar extends React.Component {
                             <a className="nav-link navbar-item" href="#proj">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link navbar-item border-top" href={{pdf}}>Resume</a>
+                            <a className="nav-link navbar-item" href={{pdf}}>Resume</a>
                        </li>                        
                        <li className="nav-item">
                             <a className="nav-link navbar-item" href="https://github.com/hharnack/">Github</a>
