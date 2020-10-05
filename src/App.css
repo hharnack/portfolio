@@ -2,6 +2,10 @@ a:active {
   color: #566246;
 }
 
+.card-item{
+  height:550px;
+}
+
 .content {
   font-family: 'Open Sans', sans-serif;
 }
