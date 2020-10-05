@@ -3,7 +3,8 @@ a:active {
 }
 
 .card-item{
-  height:550px;
+  height:600px;
+  margin:5px;
 }
 
 .content {
