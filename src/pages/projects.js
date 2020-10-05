@@ -16,7 +16,7 @@ class Project extends React.Component {
                     <hr style={{ borderColor: '#556246' }} />
                     <Row>
                         <Col md="6" sm="12" xs="12">
-                            <Card className="text-center">
+                            <Card className="text-center card-item">
                                 <Card.Img top width="100%" src={proj1} />
                                 <Card.Body>
                                     <Card.Title>K9 Fun Family</Card.Title>
@@ -28,7 +28,7 @@ class Project extends React.Component {
                             </Card>
                         </Col>
                         <Col md="6" sm="12" xs="12">
-                            <Card className="text-center">
+                            <Card className="text-center card-item">
                                 <Card.Img top width="100%" src={proj2} />
                                 <Card.Body>
                                     <Card.Title>Tic Tac Toe Game</Card.Title>
@@ -42,7 +42,7 @@ class Project extends React.Component {
                     </Row>
                     <Row>
                         <Col md="6" sm="12" xs="12">
-                            <Card className="text-center">
+                            <Card className="text-center card-item">
                                 <Card.Img top width="100%" src={proj3} />
                                 <Card.Body>
                                     <Card.Title>Client/Property Management System</Card.Title>
@@ -52,7 +52,7 @@ class Project extends React.Component {
                             </Card>
                         </Col>
                         <Col md="6" sm="12" xs="12">
-                            <Card className="text-center">
+                            <Card className="text-center card-item">
                                 <Card.Img top width="50%" src={proj4} />
                                 <Card.Body>
                                     <Card.Title>Car Rental</Card.Title>
