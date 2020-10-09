@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../src/HollyHarnackResume.pdf';
+import pdf from '../src/HollyHResume.pdf';
 
 class Navbar extends React.Component {
 
