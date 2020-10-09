@@ -4,7 +4,7 @@ import proj1 from '../images/proj1.JPG';
 import proj2 from '../images/proj2.JPG';
 import proj3 from '../images/proj3.JPG';
 import proj4 from '../images/proj4.JPG';
-import proj5 from '../images/proj5.jpg';
+//import proj5 from '../images/proj5.JPG';
 
 class Project extends React.Component {
 
@@ -65,7 +65,7 @@ class Project extends React.Component {
                             </Card>
                         </Col>
                     </Row>
-                    <Row>
+                    {/* <Row>
                         <Col md="6" sm="12" xs="12">
                             <Card className="text-center card-item">
                                 <Card.Img top width="100%" src={proj5} />
@@ -88,7 +88,7 @@ class Project extends React.Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                    </Row>
+                    </Row> */}
                 </div>
             </div>
         );
